@@ -1,6 +1,11 @@
 # wordpress_hook_to_sort_new_column
-## Add these lines to you functions.php
-### Suppose your new column will be named as type, and the meta_key in (user_meta) db is 'type'.
+<br/>
+###**The problem :**
+####  I want to add new custom sortable column to Users Admin panel in WordPress
+<br/>
+###**Solution :**
+#### Suppose your new column will be named as type, and the meta_key in (user_meta) db is 'type'.
+####  Add these lines to you functions.php
 ```
 // add additional columns to the users.php admin page
 function modify_user_columns($column) {
